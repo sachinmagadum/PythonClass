@@ -8,12 +8,9 @@ def student_data_process():
     sheet_obj = wb_obj.active
     m_row = sheet_obj.max_row
     max_col = sheet_obj.max_column
-    # print('Rows:',m_row)
-    # print('Cols:',max_col)
     col_name = []
     for i in range(1, max_col + 1):
         cell_obj = sheet_obj.cell(row=1, column=i)
-        # print(cell_obj.value)
         col_name.append(cell_obj.value)
     student_dict = {}
     for i in range(2, m_row + 1):
