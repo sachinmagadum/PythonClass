@@ -23,3 +23,10 @@ x = 20
 y = 30
 
 z = x+y
+
+
+#sachin changes
+
+a = 10
+b = [1,2,3,4]
+
