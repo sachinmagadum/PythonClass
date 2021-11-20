@@ -16,3 +16,10 @@ c = 10
 d = 20
 
 print("Multiplication of a and b is ", c*d)
+
+
+x = 20
+
+y = 30
+
+z = x+y
