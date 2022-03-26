@@ -1,3 +1,3 @@
-def add(a,b):
-    c = a+b
-    return c
+def add(num_a,num_b):
+    ans = num_a+num_b
+    return ans
